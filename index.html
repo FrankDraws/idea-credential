@@ -9,18 +9,24 @@
 </head>
 
 <style>
-	body {
-		display: grid;
-		place-items: center; /* Center the image both horizontally and vertically */
-		height: 100vh; /* Make the body fill the entire viewport height */
-		margin: 0; /* Remove default body margins */
-		overflow: hidden; /* Hide any scrollbars */
+	body,
+	html {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
 		background-color: #f0f0f0;
 	}
 
+	.image-container {
+		width: 100%;
+		height: 100%;
+		display: grid;
+		place-items: center;
+	}
+
 	img {
-		max-width: 100%; /* Ensure the image doesn't exceed the viewport width */
-		height: 80vh; /* Maintain aspect ratio */
+		max-width: 90%;
 	}
 </style>
 
