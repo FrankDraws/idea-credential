@@ -1,2 +1,4 @@
 # Idea Credential
-Present at gate.
+
+Live site is here:
+https://frankdraws.github.io/idea-credential/
